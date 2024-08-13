@@ -1,0 +1,68 @@
+/* 전채 너비 1440px */
+header {
+    width: 1440px; height: 100px;
+    margin: 0 auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header nav > ul {
+    display: flex; background-color: aquamarine;
+}
+header nav > ul > li {
+    margin-right: 20px;
+    position: relative;}
+    header nav > ul > li:last-child {
+        margin: 0;
+    }
+header nav > ul > li > a {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+header nav > ul > li > .sub {
+    position: absolute;
+    display: flex;
+    background-color: violet;
+    width: max-content;
+}
+header nav > ul > li > .sub li {}
+header .right {}
+header .right a {}
+/* main */
+main {}
+main .path_bg {
+    background-color: #f1f1f1;
+    border: 1px solid #aaa;
+    border-right: 0;
+    border-left: 0;
+}
+main .path_bg .path {
+    background-color: lime;
+    width: 1440px; margin: 0 auto;
+    text-align: right; padding: 12px 0;
+}
+main .path_bg .path a {}
+main .path_bg .path span {}
+main .container {text-align: center;}
+main .container h1 {
+    font-size: 3.13rem;
+    font-weight: 700;
+}
+main .container p {}   /* main .container h1+p {}  => 이전형제+다음형제 인접형제선택자  */
+main .container .bg {background: #f1f1f1;}
+main .container .bg > *{
+    background: yellow;
+    width: 1440px; margin: 0 auto;}
+main .container .bg p {
+    font-weight: 300;
+    letter-spacing: -2%;
+}
+main .container .bg h2 {}
+/* main goal시작 */
+main .container .bg ul {}
+main .container .bg ul li {}
+main .container .bg ul li span {}
